@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Denbox — Laurent Guilbert | Projets & Outils</title>
-  <meta name="description" content="Bienvenue sur Denbox, l'espace personnel et vitrine de projets de Laurent Guilbert : SilverScreen (IPTV), OmniBox, mes outils et technologies favoris.">
+  <title>Laurent Guilbert — Responsable Informatique, Architecte Systèmes &amp; Développeur C++ / Qt | Denbox</title>
+  <meta name="description" content="Portfolio et vitrine de Laurent Guilbert : Responsable informatique, architecte systèmes & réseaux et développeur C++20 / Qt 6. Créateur de SilverScreen, OmniScan, Orion et fervent défenseur de l'open source auto-hébergé.">
   <link rel="icon" href="logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
   
-  <!-- Open Graph / Meta -->
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.denbox.net/">
-  <meta property="og:title" content="Denbox — Laurent Guilbert | Projets & Outils">
-  <meta property="og:description" content="L'écosystème numérique et vitrine de créations de Laurent Guilbert. Découvrez SilverScreen, OmniBox et ma stack d'outils.">
+  <meta property="og:title" content="Laurent Guilbert — Architecte Systèmes &amp; Développeur C++ / Qt | Denbox">
+  <meta property="og:description" content="Découvrez mes créations logicielles (SilverScreen, OmniScan, Orion), mon expertise en infrastructure réseau/sécurité (NIS2, Fortinet, Debian, Traefik, Odoo) et mes outils open source favoris.">
   <meta property="og:image" content="https://www.denbox.net/logo.svg">
 </head>
 <body>
 
-  <!-- Subtle gradient background glows -->
+  <!-- Glows -->
   <div class="bg-glow-1"></div>
   <div class="bg-glow-2"></div>
 
@@ -30,12 +30,23 @@
       </a>
       <nav>
         <ul class="nav-links">
-          <li><a href="#projets">Projets</a></li>
-          <li><a href="#outils">Boîte à outils</a></li>
+          <li><a href="#projets">Logiciels &amp; Projets</a></li>
+          <li><a href="#infrastructure">Architecture &amp; Infra</a></li>
+          <li><a href="#opensource">Open Source</a></li>
+          <li><a href="#stack">Stack Technique</a></li>
           <li><a href="#a-propos">À propos</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+      <div class="nav-actions">
+        <a href="https://github.com/Lagui-dev" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub
+        </a>
+        <a href="https://ko-fi.com/denboxnet" target="_blank" rel="noopener noreferrer" class="btn btn-kofi btn-sm">
+          ☕ Ko-fi
+        </a>
+      </div>
     </div>
   </header>
 
@@ -45,276 +56,498 @@
     <section class="hero">
       <div class="hero-pill">
         <span class="status-dot"></span>
-        <span>Portfolio & Hub Projets</span>
+        <span>Responsable Informatique &amp; Architecte Systèmes — Développeur C++ / Qt</span>
       </div>
       <h1>
-        Créateur d'expériences <br>
-        <span class="gradient-text">numériques & multimédia</span>
+        Ingénierie Systèmes, Réseaux &amp; <br>
+        <span class="gradient-text">Développement C++ / Qt</span>
       </h1>
       <p class="hero-lead">
-        Moi c'est <strong>Laurent</strong>. Bienvenue sur <strong>Denbox</strong>, mon repaire créatif où je conçois des applications desktop, web et des outils sur mesure alliant ergonomie, performance et simplicité d'usage.
+        Bienvenue sur <strong>Denbox</strong>, l'espace de <strong>Laurent Guilbert</strong>. Je conçois des architectures systèmes et réseaux sécurisées pour l'entreprise, tout en développant des applications natives performantes (C++20, Qt 6, QML) axées sur l'ergonomie et la résilience.
       </p>
       <div class="hero-cta">
         <a href="#projets" class="btn btn-primary">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-          Découvrir les projets
+          Logiciels &amp; Projets
         </a>
-        <a href="#outils" class="btn btn-secondary">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
-          Ma boîte à outils
+        <a href="#infrastructure" class="btn btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="8" x="2" y="2" rx="2" ry="2"/><rect width="20" height="8" x="2" y="14" rx="2" ry="2"/><line x1="6" x2="6.01" y1="6" y2="6"/><line x1="6" x2="6.01" y1="18" y2="18"/></svg>
+          Architecture &amp; Infra
+        </a>
+        <a href="https://github.com/Lagui-dev" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          @Lagui-dev
         </a>
       </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Section 1: Software & Applications -->
     <section id="projets">
       <div class="section-header">
-        <div class="section-tag">Écosystème Denbox</div>
-        <h2 class="section-title">Mes Créations & Projets</h2>
-        <p class="section-desc">Des solutions développées pour répondre à de vrais besoins multimédia, avec une attention particulière portée au design et à l'expérience utilisateur.</p>
+        <div class="section-tag">Créations Logicielles</div>
+        <h2 class="section-title">Applications &amp; Projets Actifs</h2>
+        <p class="section-desc">Développements natifs C++20 / Qt 6 et utilitaires créés pour allier réactivité immédiate, légèreté et ergonomie sans compromis.</p>
       </div>
 
       <div class="projects-grid">
-        <!-- Project 1: SilverScreen -->
+        <!-- Project: SilverScreen -->
         <article class="project-card" style="--card-accent: #5ccf8a;">
           <div>
             <div class="card-header">
               <div class="card-icon-wrapper" style="color: #5ccf8a;">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="15" x="2" y="7" rx="2" ry="2"/><polyline points="17 2 12 7 7 2"/></svg>
               </div>
-              <span class="card-badge badge-live">En ligne</span>
+              <span class="card-badge badge-live">En ligne &amp; Actif</span>
             </div>
             <h3>SilverScreen</h3>
             <p>
-              Lecteur IPTV moderne et réactif pour Windows, macOS, Linux et Android TV. Profitez de vos chaînes TV, films et séries depuis vos playlists M3U et API Xtream, entièrement navigable à la télécommande ou au clavier.
+              Lecteur multimédia et IPTV multiplateforme (Windows, Linux, Android TV) conçu pour être utilisé 100% à la télécommande ou au clavier. Intègre l'API Xtream Codes, la gestion des playlists M3U, un moteur de lecture ExoPlayer sur Android, et un relais proxy streaming HTTP local pour une fluidité maximale sans saccade.
             </p>
             <div class="card-tags">
-              <span>Desktop & TV</span>
-              <span>IPTV / M3U</span>
-              <span>Xtream API</span>
-              <span>100% Télécommande</span>
+              <span>C++20</span>
+              <span>Qt 6 / QML</span>
+              <span>ExoPlayer</span>
+              <span>Xtream Codes</span>
+              <span>Android TV</span>
+              <span>Proxy HTTP local</span>
             </div>
           </div>
-          <div>
+          <div class="card-footer">
             <a href="https://silverscreen.denbox.net/" target="_blank" rel="noopener noreferrer" class="card-link">
-              Visiter le site silverscreen.denbox.net
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Site silverscreen.denbox.net
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+            <a href="https://ko-fi.com/denboxnet" target="_blank" rel="noopener noreferrer" class="btn btn-kofi btn-sm">
+              Soutenir (Ko-fi)
             </a>
           </div>
         </article>
 
-        <!-- Project 2: OmniBox -->
-        <article class="project-card" style="--card-accent: #c084fc;">
-          <div>
-            <div class="card-header">
-              <div class="card-icon-wrapper" style="color: #c084fc;">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>
-              </div>
-              <span class="card-badge badge-coming">Prochainement</span>
-            </div>
-            <h3>OmniBox</h3>
-            <p>
-              La plateforme tout-en-un et boîte à outils centralisée. Conçue pour unifier services, automatisations, gestion de médias et utilitaires personnels dans une interface élégante et modulaire.
-            </p>
-            <div class="card-tags">
-              <span>Plateforme Unifiée</span>
-              <span>Automatisation</span>
-              <span>Dashboard</span>
-              <span>Web & Cloud</span>
-            </div>
-          </div>
-          <div>
-            <span class="card-link disabled" title="Lancement très prochainement">
-              Bientôt sur omnibox.denbox.net
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            </span>
-          </div>
-        </article>
-
-        <!-- Project 3: Labs / Open Source -->
+        <!-- Project: OmniScan / OmniBox -->
         <article class="project-card" style="--card-accent: #38bdf8;">
           <div>
             <div class="card-header">
               <div class="card-icon-wrapper" style="color: #38bdf8;">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
               </div>
-              <span class="card-badge badge-live">R&amp;D</span>
+              <span class="card-badge badge-active">Releases disponibles</span>
             </div>
-            <h3>Lab &amp; Expérimentations</h3>
+            <h3>OmniScan / OmniBox</h3>
             <p>
-              Scripts d'automatisation, intégrations d'API, utilitaires système et expérimentations autour des protocoles de streaming, de l'hébergement cloud et de l'intelligence artificielle appliquée au dev.
+              Scanner et outil autonome de découverte et supervision réseau multiplateforme. Conçu comme une alternative portable et ultra-rapide à LibreNMS ou SoftPerfect Network Scanner : cartographie IP, requêtage SNMP avec catalogue signé et sondes WMI sous Windows &amp; Linux (AppImage / portable).
             </p>
             <div class="card-tags">
-              <span>Open Source</span>
-              <span>Scripts &amp; CLI</span>
-              <span>APIs &amp; Webhooks</span>
-              <span>Cloudflare &amp; CI/CD</span>
+              <span>C++20</span>
+              <span>Qt 6 QML</span>
+              <span>SNMP signé</span>
+              <span>WMI</span>
+              <span>AppImage</span>
+              <span>Windows Portable</span>
             </div>
           </div>
+          <div class="card-footer">
+            <a href="https://github.com/Lagui-dev/OmniScan-releases" target="_blank" rel="noopener noreferrer" class="card-link">
+              Releases GitHub
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+            <span class="card-badge badge-coming">omnibox.denbox.net (bientôt)</span>
+          </div>
+        </article>
+
+        <!-- Project: Orion -->
+        <article class="project-card" style="--card-accent: #c084fc;">
           <div>
-            <a href="#outils" class="card-link">
-              Explorer les technologies
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            <div class="card-header">
+              <div class="card-icon-wrapper" style="color: #c084fc;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></svg>
+              </div>
+              <span class="card-badge badge-coming">En développement</span>
+            </div>
+            <h3>Orion</h3>
+            <p>
+              Assistant virtuel multimodal texte et voix en C++ / Qt 6 / QML. Pensé pour orchestrer et router intelligemment les requêtes vers des backends LLM locaux (Ollama / Llama.cpp) ou cloud, avec une attention rigoureuse à la latence temps réel, à l'interaction vocale et à la confidentialité des échanges.
+            </p>
+            <div class="card-tags">
+              <span>C++20</span>
+              <span>Qt 6 / QML</span>
+              <span>LLM Orchestration</span>
+              <span>Local &amp; Cloud AI</span>
+              <span>Voice Processing</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <span class="card-link disabled">
+              Architecture en cours
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </span>
+          </div>
+        </article>
+
+        <!-- Project: Généalogie Hors-ligne -->
+        <article class="project-card" style="--card-accent: #fbbf24;">
+          <div>
+            <div class="card-header">
+              <div class="card-icon-wrapper" style="color: #fbbf24;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+              </div>
+              <span class="card-badge badge-active">GEDCOM 7</span>
+            </div>
+            <h3>Généalogie Hors-ligne</h3>
+            <p>
+              Application de recherche et de visualisation généalogique développée en C++ / Qt. Axée sur la conformité stricte avec le standard <strong>GEDCOM 7</strong>, garantissant l'indépendance vis-à-vis des plateformes cloud, l'intégrité des archives familiales et un fonctionnement 100% hors-ligne.
+            </p>
+            <div class="card-tags">
+              <span>C++</span>
+              <span>Qt 6</span>
+              <span>GEDCOM 7</span>
+              <span>Souveraineté</span>
+              <span>100% Offline</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <span class="card-link disabled">Recherche &amp; Spécification</span>
+          </div>
+        </article>
+
+        <!-- Project: pyNjord -->
+        <article class="project-card" style="--card-accent: #34d399;">
+          <div>
+            <div class="card-header">
+              <div class="card-icon-wrapper" style="color: #34d399;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              </div>
+              <span class="card-badge badge-active">Finance &amp; Comptabilité</span>
+            </div>
+            <h3>pyNjord &amp; Pilotage Budgétaire</h3>
+            <p>
+              Application de pilotage budgétaire et de suivi analytique du Grand Livre comptable développée en Python (PySide). Permet de ventiler, projeter et auditer les flux financiers et imputations budgétaires avec rapidité et rigueur analytique.
+            </p>
+            <div class="card-tags">
+              <span>Python</span>
+              <span>PySide / Qt</span>
+              <span>Grand Livre</span>
+              <span>Contrôle de gestion</span>
+              <span>Analytics</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/Lagui-dev/pyNjord" target="_blank" rel="noopener noreferrer" class="card-link">
+              Dépôt pyNjord sur GitHub
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Project: Jeux & Utilitaires -->
+        <article class="project-card" style="--card-accent: #818cf8;">
+          <div>
+            <div class="card-header">
+              <div class="card-icon-wrapper" style="color: #818cf8;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+              </div>
+              <span class="card-badge badge-live">Open Source</span>
+            </div>
+            <h3>Jeux de réflexion &amp; Utilitaires</h3>
+            <p>
+              Développements personnels explorant l'optimisation graphique et algorithmique : <strong>MakeTen</strong> / <strong>Take Ten</strong> (portages C++ et QML réactif), <strong>FindTheWord</strong> (jeu de lettres en Qt/QML) et <strong>PyBatailleNavale</strong> en Python.
+            </p>
+            <div class="card-tags">
+              <span>Qt / QML</span>
+              <span>C++</span>
+              <span>Python</span>
+              <span>Take Ten</span>
+              <span>Algorithmique</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/Lagui-dev/MakeTenQML" target="_blank" rel="noopener noreferrer" class="card-link">
+              MakeTenQML sur GitHub
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
             </a>
           </div>
         </article>
       </div>
     </section>
 
-    <!-- Tools & Stack Section -->
-    <section id="outils">
+    <!-- Section 2: Enterprise Systems, Architecture & NIS2 -->
+    <section id="infrastructure">
       <div class="section-header">
-        <div class="section-tag">Savoir-faire &amp; Stack</div>
-        <h2 class="section-title">Mes Outils Favoris</h2>
-        <p class="section-desc">Les technologies, frameworks et environnements avec lesquels je construis et déploie mes projets au quotidien.</p>
+        <div class="section-tag">Systèmes, Réseaux &amp; Sécurité</div>
+        <h2 class="section-title">Architecture d'Entreprise &amp; Transformation</h2>
+        <p class="section-desc">Pilotage des infrastructures critiques, refontes de virtualisation, renforcement cyber et intégration de solutions de gestion d'entreprise.</p>
+      </div>
+
+      <div class="infra-grid">
+        <!-- Transformation & NIS2 -->
+        <div class="infra-card">
+          <h4>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Plan de Transformation &amp; Durcissement NIS2
+          </h4>
+          <p>
+            Conduite de la refonte globale d'infrastructure : analyse des risques, politique de moindres privilèges, segmentation réseau avancée et mise en conformité réglementaire avec la directive européenne <strong>NIS2</strong> pour garantir la cyber-résilience.
+          </p>
+          <div class="infra-badge-row">
+            <span class="infra-badge">Conformité NIS2</span>
+            <span class="infra-badge">Durcissement SI</span>
+            <span class="infra-badge">Gouvernance IT</span>
+          </div>
+        </div>
+
+        <!-- Virtualization & Backup -->
+        <div class="infra-card">
+          <h4>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" x2="6.01" y1="6" y2="6"/><line x1="6" x2="6.01" y1="18" y2="18"/></svg>
+            Virtualisation, Continuité &amp; Supervision
+          </h4>
+          <p>
+            Exploitation et migration d'environnements hyperconvergés et virtualisés : <strong>VMware</strong>, <strong>XCP-ng</strong> et <strong>Proxmox VE</strong>. Sauvegardes immuables et PRA avec <strong>Veeam Backup</strong>, supervision proactive avec <strong>Zabbix</strong>.
+          </p>
+          <div class="infra-badge-row">
+            <span class="infra-badge">Proxmox VE</span>
+            <span class="infra-badge">XCP-ng</span>
+            <span class="infra-badge">VMware</span>
+            <span class="infra-badge">Veeam Backup</span>
+            <span class="infra-badge">Zabbix</span>
+          </div>
+        </div>
+
+        <!-- ERP Odoo -->
+        <div class="infra-card">
+          <h4>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#c084fc" stroke-width="2"><path d="M16 16v1a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v1"/><path d="M18 8h4a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-4"/><circle cx="8" cy="12" r="2"/></svg>
+            Intégration &amp; Déploiement Odoo (v19 / v20)
+          </h4>
+          <p>
+            Déploiement et intégration opérationnelle de l'ERP <strong>Odoo</strong> : couverture des modules de billetterie événementielle, pilotage de projets, gestion des stocks, GED (Gestion Électronique des Documents) et processus Ressources Humaines.
+          </p>
+          <div class="infra-badge-row">
+            <span class="infra-badge">Odoo v19 / v20</span>
+            <span class="infra-badge">Billetterie</span>
+            <span class="infra-badge">Stocks &amp; GED</span>
+            <span class="infra-badge">RH &amp; Projets</span>
+          </div>
+        </div>
+
+        <!-- Network & Fortinet -->
+        <div class="infra-card">
+          <h4>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#5ccf8a" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+            Réseau Fortinet, Segmentation &amp; Haute Dispo
+          </h4>
+          <p>
+            Architecture réseau managée : pare-feu <strong>Fortinet FortiGate</strong> (inspection SSL, IPS/IDS, SD-WAN), commutation <strong>FortiSwitch</strong>, découpage strict par VLANs et liens redondés en <strong>MLAG</strong> pour garantir une continuité sans interruption.
+          </p>
+          <div class="infra-badge-row">
+            <span class="infra-badge">FortiGate</span>
+            <span class="infra-badge">FortiSwitch</span>
+            <span class="infra-badge">VLANs &amp; MLAG</span>
+            <span class="infra-badge">SD-WAN</span>
+          </div>
+        </div>
+
+        <!-- Containerization & Traefik -->
+        <div class="infra-card">
+          <h4>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+            Conteneurisation, Traefik &amp; Portainer
+          </h4>
+          <p>
+            Orchestration de micro-services sur stacks <strong>Docker Compose</strong> administrées via <strong>Portainer CE</strong>. Routage dynamique, terminaison TLS et certificats automatisés via le reverse proxy <strong>Traefik</strong> (environnement <code>srvm-docker-02</code>).
+          </p>
+          <div class="infra-badge-row">
+            <span class="infra-badge">Docker Compose</span>
+            <span class="infra-badge">Traefik Proxy</span>
+            <span class="infra-badge">Portainer CE</span>
+            <span class="infra-badge">CI/CD Git</span>
+          </div>
+        </div>
+
+        <!-- VPN & Mesh Networks -->
+        <div class="infra-card">
+          <h4>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#818cf8" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/><path d="m9.17 14.83-4.24 4.24"/></svg>
+            VPNs Maillés, WireGuard &amp; Zero-Trust
+          </h4>
+          <p>
+            Mise en place de réseaux overlay maillés et sécurisés pour l'interconnexion de sites distants et d'itinérants : <strong>Tailscale</strong>, <strong>Headscale</strong> (coordination souveraine) et <strong>NetBird</strong>, basés sur le protocole chiffré ultra-rapide WireGuard.
+          </p>
+          <div class="infra-badge-row">
+            <span class="infra-badge">Headscale</span>
+            <span class="infra-badge">Tailscale</span>
+            <span class="infra-badge">NetBird</span>
+            <span class="infra-badge">WireGuard</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Open Source Spotlight -->
+    <section id="opensource">
+      <div class="opensource-banner">
+        <div class="section-tag">Souveraineté &amp; Autonomie Numérique</div>
+        <h2 class="section-title">Promotion des Outils Open Source Auto-hébergés</h2>
+        <p class="section-desc">
+          Convaincu que la résilience passe par la maîtrise de ses données et de ses infrastructures, je déploie et recommande au quotidien ces briques open source éprouvées :
+        </p>
+
+        <div class="opensource-grid">
+          <div class="os-item">
+            <strong>Vaultwarden</strong>
+            <span>Gestionnaire de mots de passe souverain, chiffré de bout en bout et auto-hébergé.</span>
+          </div>
+          <div class="os-item">
+            <strong>Headscale</strong>
+            <span>Implémentation open source du serveur de contrôle Tailscale sans dépendance externe.</span>
+          </div>
+          <div class="os-item">
+            <strong>Pi-hole</strong>
+            <span>Filtrage DNS réseau, protection anti-télémétrie et blocage des traceurs au niveau passerelle.</span>
+          </div>
+          <div class="os-item">
+            <strong>Uptime Kuma</strong>
+            <span>Supervision synthétique haute disponibilité et monitoring en temps réel des services.</span>
+          </div>
+          <div class="os-item">
+            <strong>Debian 13 (Trixie) &amp; Mint</strong>
+            <span>Socles de prédilection : stabilité irréprochable, sécurité pérenne et liberté technique.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Tools & Technical Stack -->
+    <section id="stack">
+      <div class="section-header">
+        <div class="section-tag">Boîte à Outils</div>
+        <h2 class="section-title">Stack Technique &amp; Savoir-faire</h2>
+        <p class="section-desc">Les langages, environnements et technologies que j'utilise et perfectionne en production.</p>
       </div>
 
       <div class="tools-grid">
-        <!-- Category 1 -->
+        <!-- Development Languages -->
         <div class="tool-category">
           <h4>
-            <span class="tool-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-            </span>
-            Langages &amp; Frontend
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            Développement &amp; Langages
           </h4>
           <ul class="tool-list">
-            <li class="tool-item">
-              <strong>JavaScript / TypeScript</strong> — Pour des applications dynamiques et typées
-            </li>
-            <li class="tool-item">
-              <strong>HTML5 &amp; CSS3 moderne</strong> — Flexbox, Grid, animations fluides sans surcharge
-            </li>
-            <li class="tool-item">
-              <strong>Frameworks réactifs</strong> — Conception de composants UI modulaires
-            </li>
-            <li class="tool-item">
-              <strong>Python &amp; Scripts</strong> — Automatisation, scraping et utilitaires
-            </li>
+            <li class="tool-item"><strong>C++ (C++20)</strong> — Performance brute et bas niveau</li>
+            <li class="tool-item"><strong>Qt 6 &amp; QML</strong> — UI réactives multiplateformes</li>
+            <li class="tool-item"><strong>C# &amp; .NET</strong> — Applications d'entreprise &amp; APIs</li>
+            <li class="tool-item"><strong>Python / PySide</strong> — Scripts, data &amp; gestion analytique</li>
+            <li class="tool-item"><strong>Bash / PowerShell</strong> — Automatisation d'infrastructure</li>
           </ul>
         </div>
 
-        <!-- Category 2 -->
+        <!-- Systems & OS -->
         <div class="tool-category">
           <h4>
-            <span class="tool-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M7 7h10"/><path d="M7 12h10"/><path d="M7 17h10"/></svg>
-            </span>
-            Multimédia &amp; Streaming
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5ccf8a" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg>
+            Systèmes &amp; Annuaires
           </h4>
           <ul class="tool-list">
-            <li class="tool-item">
-              <strong>Protocoles IPTV</strong> — Playlists M3U, formats Xtream Codes
-            </li>
-            <li class="tool-item">
-              <strong>Flux vidéo</strong> — HLS (.m3u8), TS, MP4, DASH
-            </li>
-            <li class="tool-item">
-              <strong>Moteurs de lecture</strong> — Intégrations vidéo et audio multiplateformes
-            </li>
-            <li class="tool-item">
-              <strong>UX Télécommande</strong> — Navigation spatiale au D-Pad (Android TV, TV boxes)
-            </li>
+            <li class="tool-item"><strong>Debian Linux (13 Trixie)</strong> — Serveur de référence</li>
+            <li class="tool-item"><strong>Linux Mint</strong> — Poste de travail quotidien stable</li>
+            <li class="tool-item"><strong>Windows Server</strong> — Active Directory on-premise</li>
+            <li class="tool-item"><strong>Microsoft Entra ID</strong> — Identité cloud &amp; Exchange Online</li>
+            <li class="tool-item"><strong>Android TV</strong> — Écosystème applicatif grand écran</li>
           </ul>
         </div>
 
-        <!-- Category 3 -->
+        <!-- Network & Infra -->
         <div class="tool-category">
           <h4>
-            <span class="tool-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" x2="22" y1="12" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-            </span>
-            Infra &amp; Déploiement
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#818cf8" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" x2="22" y1="12" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            Réseau, Hyperviseurs &amp; Proxy
           </h4>
           <ul class="tool-list">
-            <li class="tool-item">
-              <strong>Cloudflare</strong> — Gestion DNS, SSL, CDN et protection de bord
-            </li>
-            <li class="tool-item">
-              <strong>GitHub Pages &amp; Actions</strong> — Hébergement statique rapide et CI/CD
-            </li>
-            <li class="tool-item">
-              <strong>Synology &amp; NAS</strong> — Stockage centralisé et serveurs d'automatisation
-            </li>
-            <li class="tool-item">
-              <strong>Docker &amp; Linux</strong> — Conteneurisation de micro-services
-            </li>
+            <li class="tool-item"><strong>Fortinet FortiGate / FortiSwitch</strong> — Sécurité &amp; MLAG</li>
+            <li class="tool-item"><strong>Proxmox VE / XCP-ng / VMware</strong> — Virtualisation</li>
+            <li class="tool-item"><strong>Traefik &amp; Cloudflare</strong> — Reverse proxy &amp; DNS/SSL</li>
+            <li class="tool-item"><strong>WireGuard / Headscale</strong> — VPN maillé Zero-Trust</li>
+            <li class="tool-item"><strong>Veeam &amp; Zabbix</strong> — Sauvegardes &amp; Métrologie</li>
           </ul>
         </div>
 
-        <!-- Category 4 -->
+        <!-- Multimedia & Protocols -->
         <div class="tool-category">
           <h4>
-            <span class="tool-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
-            </span>
-            Environnement &amp; Dev
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c084fc" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            Multimédia, Protocoles &amp; ERP
           </h4>
           <ul class="tool-list">
-            <li class="tool-item">
-              <strong>VS Code &amp; AI-Agents</strong> — Environnement de dev rapide et assisté
-            </li>
-            <li class="tool-item">
-              <strong>Git &amp; GitHub</strong> — Gestion de versions propre et traçabilité
-            </li>
-            <li class="tool-item">
-              <strong>DevTools &amp; Profiling</strong> — Optimisation des performances et du rendu
-            </li>
-            <li class="tool-item">
-              <strong>Cross-Platform</strong> — Conception pensée pour Windows, Mac, Linux &amp; TV
-            </li>
+            <li class="tool-item"><strong>Odoo (v19/v20)</strong> — ERP complet &amp; intégration</li>
+            <li class="tool-item"><strong>Streaming IPTV</strong> — M3U, Xtream Codes, HLS, TS</li>
+            <li class="tool-item"><strong>ExoPlayer &amp; Relais HTTP</strong> — Proxy streaming local</li>
+            <li class="tool-item"><strong>SNMP (signé) &amp; WMI</strong> — Cartographie réseau</li>
+            <li class="tool-item"><strong>GEDCOM 7</strong> — Standard généalogique universel</li>
           </ul>
         </div>
       </div>
     </section>
 
-    <!-- About Section -->
+    <!-- Section 5: About -->
     <section id="a-propos">
       <div class="section-header">
-        <div class="section-tag">Parcours &amp; Philosophie</div>
-        <h2 class="section-title">À Propos de Moi</h2>
+        <div class="section-tag">Profil &amp; Philosophie</div>
+        <h2 class="section-title">À Propos de Laurent Guilbert</h2>
       </div>
 
       <div class="about-card">
         <p>
-          Passionné d'informatique, de développement et d'expériences multimédias, je conçois des outils qui résolvent des problématiques concrètes. Ma démarche privilégie toujours la <strong>légèreté</strong>, la <strong>fluidité</strong> et une interface soignée qui s'efface au profit du contenu.
+          En tant que <strong>Responsable informatique et Architecte systèmes</strong>, j'évolue à la croisée des infrastructures d'entreprise à haute disponibilité et du développement logiciel natif.
         </p>
         <p>
-          À travers la bannière <strong>Denbox</strong>, je regroupe mes projets phares comme <strong>SilverScreen</strong> — pensé pour redonner le plaisir du visionnage TV sans les lenteurs des applications traditionnelles — et les futurs projets tels qu'<strong>OmniBox</strong>.
+          Mon parcours est guidé par une exigence constante : concevoir des architectures fiables, robustes et sécurisées face aux menaces modernes (conformité <strong>NIS2</strong>, segmentation <strong>Fortinet</strong>, résilience <strong>Debian</strong> et conteneurisation <strong>Traefik/Docker</strong>), tout en développant des outils logiciels légers et réactifs en <strong>C++20 / Qt 6</strong> répondant à des usages concrets.
+        </p>
+        <p>
+          Fervent défenseur de l'<strong>open source auto-hébergé</strong>, je privilégie toujours les solutions respectueuses de la souveraineté des données, qu'il s'agisse de la gestion de mots de passe avec <strong>Vaultwarden</strong>, du filtrage réseau avec <strong>Pi-hole</strong> ou des réseaux chiffrés avec <strong>Headscale</strong>.
         </p>
         <div class="about-highlights">
           <div class="highlight-item">
-            <span class="highlight-num">Multi-plateforme</span>
-            <span class="highlight-label">Desktop &amp; Android TV</span>
+            <span class="highlight-num">NIS2 &amp; Fortinet</span>
+            <span class="highlight-label">Sécurité &amp; Conformité</span>
           </div>
           <div class="highlight-item">
-            <span class="highlight-num">100% Dédié</span>
-            <span class="highlight-label">Expérience utilisateur &amp; Ergonomie</span>
+            <span class="highlight-num">C++20 / Qt 6</span>
+            <span class="highlight-label">Développement natif</span>
           </div>
           <div class="highlight-item">
-            <span class="highlight-num">Performance</span>
-            <span class="highlight-label">Code optimisé &amp; zérolatence</span>
+            <span class="highlight-num">Odoo v19/v20</span>
+            <span class="highlight-label">Intégration ERP globale</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-num">Debian 13</span>
+            <span class="highlight-label">Socle système pérenne</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Section 6: Contact -->
     <section id="contact">
       <div class="section-header">
-        <div class="section-tag">Échange &amp; Retours</div>
+        <div class="section-tag">Échange &amp; Contact</div>
         <h2 class="section-title">Me Contacter</h2>
-        <p class="section-desc">Une question sur SilverScreen, une suggestion ou envie d'échanger sur un projet ?</p>
+        <p class="section-desc">Un échange sur une architecture technique, un retour d'expérience sur SilverScreen ou OmniScan ?</p>
       </div>
 
       <div class="about-card" style="text-align: center; justify-items: center;">
         <p>
-          N'hésitez pas à me contacter directement par e-mail ou à suivre les mises à jour de mes projets.
+          Vous pouvez me joindre directement par e-mail ou explorer mes dépôts et versions publiées sur GitHub.
         </p>
-        <div style="margin-top: 10px;">
-          <a href="mailto:coyote73@gmail.com" class="btn btn-primary">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-            Envoyer un e-mail (coyote73@gmail.com)
+        <div style="display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; margin-top: 10px;">
+          <a href="mailto:contact@denbox.net" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            contact@denbox.net
+          </a>
+          <a href="https://github.com/Lagui-dev" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            Profil GitHub @Lagui-dev
+          </a>
+          <a href="https://ko-fi.com/denboxnet" target="_blank" rel="noopener noreferrer" class="btn btn-kofi">
+            ☕ Offrir un café sur Ko-fi
           </a>
         </div>
       </div>
@@ -329,15 +562,16 @@
       </div>
       <ul class="footer-links">
         <li><a href="https://silverscreen.denbox.net/" target="_blank" rel="noopener">SilverScreen</a></li>
-        <li><a href="#projets">Projets</a></li>
-        <li><a href="#outils">Outils</a></li>
-        <li><a href="mailto:coyote73@gmail.com">Contact</a></li>
+        <li><a href="https://github.com/Lagui-dev/OmniScan-releases" target="_blank" rel="noopener">OmniScan</a></li>
+        <li><a href="#infrastructure">Architecture</a></li>
+        <li><a href="#opensource">Open Source</a></li>
+        <li><a href="https://github.com/Lagui-dev" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://ko-fi.com/denboxnet" target="_blank" rel="noopener">Ko-fi</a></li>
       </ul>
     </div>
   </footer>
 
   <script>
-    // Dynamically update copyright year
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
