@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="denbox-grad" x1="4" y1="4" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="cube-top" x1="12" y1="8" x2="36" y2="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <!-- Background rounded box -->
+  <rect x="4" y="4" width="40" height="40" rx="12" fill="#1b2029" stroke="url(#denbox-grad)" stroke-width="2"/>
+  
+  <!-- Stylized 3D Cube / Letter D & B concept -->
+  <!-- Top Face -->
+  <polygon points="24,12 36,18.5 24,25 12,18.5" fill="url(#cube-top)" opacity="0.95"/>
+  <!-- Left Face -->
+  <polygon points="12,18.5 24,25 24,37 12,30.5" fill="#4338ca" opacity="0.9"/>
+  <!-- Right Face -->
+  <polygon points="24,25 36,18.5 36,30.5 24,37" fill="#6d28d9" opacity="0.9"/>
+  
+  <!-- Subtle accent core -->
+  <circle cx="24" cy="24.5" r="2.5" fill="#38bdf8"/>
+</svg>
